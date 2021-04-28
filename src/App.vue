@@ -8,7 +8,8 @@
 import LoginForm from "./components/LoginForm";
 
 export default {
-  name: "App",
+  name: "App",asdasda
+  adqwqwe
   components: {
     LoginForm
   }
