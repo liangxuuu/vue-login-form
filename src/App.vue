@@ -11,6 +11,11 @@ export default {
   name: "App",
   components: {
     LoginForm
+  },
+  method: {
+    function() {
+      hash.replace(/(:|\.|\[|\]|,|=)/g, "\\$1");
+    }
   }
 };
 </script>
